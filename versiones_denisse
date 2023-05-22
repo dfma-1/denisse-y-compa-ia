@@ -1,0 +1,70 @@
+#include <stdio.h>
+
+int main() {
+    int numeroSecreto = 42;
+    int intento;
+
+    printf("Adivina el número secreto: ");
+
+    while (1) {
+        scanf("%d", &intento);
+
+        if (intento == numeroSecreto) {
+            printf("¡Felicidades! Has adivinado el número.\n");
+            break;
+        } else if (intento > numeroSecreto) {
+            printf("El número es muy alto. Intenta nuevamente: ");
+        } else {
+            printf("El número es muy bajo. Intenta nuevamente: ");
+        }
+    }
+
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+    int numeroSecreto = ;
+    int intento;
+
+    printf("Adivina el número secreto: ");
+
+    while (1) {
+        scanf("%d", &intento);
+
+        if (intento == numeroSecreto) {
+            printf("¡Felicidades! Has adivinado el número.\n");
+            break;
+        } else if (intento > numeroSecreto) {
+            printf("El número es muy alto. Intenta nuevamente: ");
+        } else {
+            printf("El número es muy bajo. Intenta nuevamente: ");
+        }
+    }
+
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+    int numeroSecreto = 25;
+    int intento;
+
+    printf("Adivina el número secreto: ");
+    scanf("%d", &intento);
+
+    if (intento > numeroSecreto) {
+        printf("El número es muy alto.\n");
+    } else if (intento < numeroSecreto) {
+        printf("El número es muy bajo.\n");
+    } else {
+        printf("¡Felicidades! Has adivinado el número.\n");
+    }
+
+    return 0;
+}
