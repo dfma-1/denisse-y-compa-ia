@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main() {
+	int numerosecreto;
+	int x;
+	numerosecreto = 10;
+	printf("ingresa un numero\n");
+	scanf("%i",&x);
+	if (x<numerosecreto) {
+		printf("el numero que ingresaste es menor al numero secreto\n");
+	} else {
+		if (x>numerosecreto) {
+			printf("el numero que ingresaste es mayor al numero secreto\n");
+		}
+	}
+	return 0;
+}
+
