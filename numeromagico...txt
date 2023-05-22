@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+	int n;
+	int numerosecreto;
+	int x;
+	numerosecreto = (rand()%9)+1;
+	x = 1000000000;
+	while (x>0) {
+		printf("ingrese un numero\n");
+		scanf("%i",&n);
+		if (numerosecreto==n) {
+			printf("¡FELICIDADES! ADIVINASTE EL NUMERO :D\n");
+			x = 0;
+		} else {
+			x = x-1;
+			if (x==0) {
+				printf("EL NUMERO SECRETO ES:%i\n",numerosecreto);
+			} else {
+				printf("¡RAYOS, FALLASTE! TE QUEDAN %i INTENTOS\n",x);
+			}
+		}
+	}
+	return 0;
+}
+
