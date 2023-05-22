@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main() {
+	int numerosecreto;
+	int x;
+	numerosecreto = 4;
+	printf("escribe un numero\n");
+	scanf("%i",&x);
+	if (x==numerosecreto) {
+		printf("el numero es correcto\n");
+	} else {
+		printf("el numero es incorrecto\n");
+	}
+	return 0;
+}
+
