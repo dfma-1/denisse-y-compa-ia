@@ -7,10 +7,11 @@ nombre: miriam amvales */
 int main ()
  
  {
- 	printf("el tamaño de la varible de una coma flotante es %d", sizeof)float));
+ 	printf("el tamaño de la varible de una coma flotante es %d", sizeof(float));
  	printf("bytes\n");
- 	printf("el tamaño de la varible de doble orecision es %d",sizeof)double));
+ 	printf("el tamaño de la varible de doble precision es %d", sizeof (double));
  	printf("bytes\n");
+ 	
  	return 0;
  	
  }
