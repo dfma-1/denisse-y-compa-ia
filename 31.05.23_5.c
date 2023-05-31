@@ -1,5 +1,5 @@
 /*programa numero
-titulo: ejercicio 5
+titulo: operadores de incremento 2
 fecha:31,05,23
 nombre:DAIRA ANIELA HERNANDEZ SILVA*/
 #include<stdio.h>
