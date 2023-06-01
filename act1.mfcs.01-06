@@ -1,0 +1,25 @@
+//mfcs
+//01/06/23
+//Muestra la tarifa de luz según el gasto de corriente eléctrica que se ingrese
+//para un gasto menor a 1000 es 1.2 pesos
+//Gasto entre 1000 y 1850 el gasto va a ser de 1.8 pesos
+//Gasto mayor a 1850 el precio es de 2.1 pesos
+
+
+#include <stdio.h>
+
+int main() {
+    float watts;
+    printf("Ingrese el gasto de corriente eléctrica en watts por hora: ");
+    scanf("%f", &watts);
+
+    if (watts < 1000) {
+        printf("La tarifa de luz es de 1.2 pesos por hora.\n");
+    } else if (watts >= 1000 && watts <= 1850) {
+        printf("La tarifa de luz es de 1.8 pesos por hora.\n");
+    } else {
+        printf("La tarifa de luz es de 2.1 pesos por hora.\n");
+    }
+
+    return 0;
+}
