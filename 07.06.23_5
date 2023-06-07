@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int i;
+    for (i = 1; < 10; i++){
+        printf ("hola\n");
+        printf ("el valor de i es %d\n", i);
+    }
+    return 0;
+}
